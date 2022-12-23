@@ -36,6 +36,14 @@ h6,
     padding-top: 60px;
     max-width: 1024px;
 }
+@media screen and (max-width: 768px) {
+    .py-6 {
+        padding-top: 12px;
+    }
+    .py-6 .row.g-5 .col-12 {
+        margin-top: 18px;
+    }
+}
 
 .btn {
     font-family: 'Barlow', sans-serif;

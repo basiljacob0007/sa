@@ -457,11 +457,11 @@ html[xmlns] .slides {
 	}
 	.flex-direction-nav li a.next {
 		background: url(../images/next_a.png) no-repeat center;
-		bottom: 100px;
+		bottom: 120px;
 	}
 	.flex-direction-nav li a.prev {
 		background: url(../images/prev_a.png) no-repeat center;
-		bottom: 100px;
+		bottom: 120px;
 		left: 0;
 	}
 }
