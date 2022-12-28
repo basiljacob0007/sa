@@ -77,9 +77,7 @@ h6,
     padding-right: 0;
     text-align: center;
 }
-.btn-primary.btn-lg-square.rounded-circle {
-    color: #FFFFFF !important;
-}
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -261,23 +259,4 @@ h6,
 
 .blog-item:hover img {
     transform: scale(1.1);
-}
-.container-fluid.bg-dark.text-secondary {
-    background-color: #1c355e !important;    
-}
-.container-fluid.container-footer {
-    margin-top: 90px;
-}
-.bi-arrow-right.text-primary {
-    color: #54c0e8 !important;
-}
-.btn-primary.btn-lg-square {
-    background-color: #54c0e8;
-    border-color: #54c0e8;
-}
-.bi.text-primary {
-    color: #54c0e8 !important;
-}
-.border-top.py-4.px-5 {
-	background-color: #1C3454 !important;
 }

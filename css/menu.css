@@ -165,7 +165,7 @@ ul.sub-menu > li > a.parent {
 	display: block; /* show the submenu */
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 900px) {
 
 	#navigation {
 		position: static;
@@ -252,4 +252,47 @@ ul.sub-menu > li > a.parent {
 .container-wrap .logo img {
 	height: 80px;
 	width: auto;
+}
+.container-fluid.bg-dark.text-secondary {
+    background-color: #1c355e !important;    
+}
+.bi-arrow-right.text-primary {
+    color: #54c0e8 !important;
+}
+.btn-primary.btn-lg-square {
+    background-color: #54c0e8;
+    border-color: #54c0e8;
+}
+.bi.text-primary {
+    color: #54c0e8 !important;
+}
+.border-top.py-4.px-5 {
+	background-color: #1C3454 !important;
+}
+.btn-primary.btn-lg-square.rounded-circle {
+    color: #FFFFFF !important;
+}
+.divider {
+	background-image: url('.././images/divider-blue.svg');
+    background-size: 100% 35px;
+    bottom: 0;
+    height: 35px;
+    z-index: 10;
+    transform: scale(1,1);
+}
+.divider-grey {
+	background-image: url('.././images/divider-grey.svg');
+	background-size: 100% 35px;
+	top: 0;
+	height: 35px;
+	z-index: 10;
+	transform: scale(1,1);
+}
+.divider-grey-bottom {
+	background-image: url('.././images/divider-grey.svg');
+	background-size: 100% 35px;
+	top: 0;
+	height: 35px;
+	z-index: 10;
+	transform: rotate(180deg);
 }

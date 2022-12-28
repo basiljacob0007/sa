@@ -59,11 +59,14 @@
 /** about section **/
 
 .about {
-     background-color: #fff;
-     padding-top: 90px;
-     max-width: 940px;
+     background-color: #54c0e8;
+     padding-top: 40px;
      margin: auto;
      padding-bottom: 90px;
+}
+
+.about .container-fluid {
+     max-width: 920px;
 }
 
 .about .titlepage {

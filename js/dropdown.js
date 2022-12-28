@@ -9,10 +9,10 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$(window).resize(function() {
-		if ($(window).width() > 700) {
-			$('#main-menu').removeAttr('style');
-		}
-	});
+});
 
+var panel_test = $('.panel-heading a');
+panel_test.on('click', function() {
+  panel_test.removeClass('active');
+  $(this).addClass('active');
 });
