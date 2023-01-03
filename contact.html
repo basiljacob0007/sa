@@ -70,7 +70,7 @@
 				  </div>
 				</div>
 				<div class="col-md-6 contact">
-				  <form action="#" method="post" class="main_form" id="conatct-form"  onsubmit="return checkForm(this);">
+				  <form action="javascript:void(0)" method="post" class="main_form" id="conatct-form"  onsubmit="return checkForm(this);">
 					<div class="row">
 					  <div class="col-md-12">
 						<input class="contactus" required placeholder="Name" type="type" name="Name">
@@ -151,10 +151,6 @@
 			var ebody = 'Name: ' + form.Name.value + '\r\n' + 'Company Name: ' + form.CompanyName.value + '\r\n' + 'Email Address: ' + form.Email.value + '\r\n' + 'Message: ' + form.Message.value;
 			ebody = encodeURIComponent(ebody);
 			window.open("mailto:sast9375@bellsouth.net"+'?cc=sastry@sastryandassoc.com'+'&subject=Please, We need a service from Sastry and Associates, Inc.Consulting Engineers for project...'+'&body='+ebody);
-		  if(!condition) {
-			return false;
-		  }
-		  return true;
 		}
 	  </script>
 </body>
