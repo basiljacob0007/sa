@@ -331,3 +331,11 @@ ul.sub-menu > li > a.parent {
 .culture.about .container-fluid {
     max-width: 100%;
 }
+#about .single-well .sec-head {
+	font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+	#about .single-well .sec-head {
+		padding-top: 16px;
+	}
+}
