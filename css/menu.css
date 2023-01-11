@@ -29,8 +29,12 @@ ol, ul {
 
 .inner {
 	margin: 0 auto;
-	max-width: 1024px;
+	max-width: 1316px;
 	padding: 0 40px;
+}
+.container-fluid.container-footer .row.g-5 {
+	margin: auto;
+	max-width: 1316px;
 }
 
 .relative {
@@ -295,4 +299,35 @@ ul.sub-menu > li > a.parent {
 	height: 35px;
 	z-index: 10;
 	transform: rotate(180deg);
+}
+.px-5.projects, .px-5.services, .about-wrap .container-fluid.p-0, .projects .container-fluid.px-5 {
+    padding: 145px 0 40px 0 !important;
+}
+.service-wrap .container-fluid.py-6.px-5 {
+	padding-bottom: 50px;
+}
+.service-wrap .py-6, .projects .py-6 {
+	max-width: 100% !important;
+}
+.about-wrap .py-6 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.about-wrap .text-primary, .projects .text-primary {
+	color: #1c355e !important;
+}
+.about-wrap h3 {
+	color: #fff !important;
+}
+.about-wrap .bi.text-primary, .projects .bi.text-primary {
+	color: #54c0e8 !important;
+}
+.about-wrap .about {
+	padding: 145px 0 0 0 !important;
+}
+.culture.about-wrap .container-fluid.p-0 {
+	padding: 50px 0 !important;
+}
+.culture.about .container-fluid {
+    max-width: 100%;
 }

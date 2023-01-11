@@ -214,7 +214,7 @@ h6,
     right: -60px;
     margin-top: -30px;
     border: 30px solid;
-    border-color: transparent transparent transparent var(--primary);
+    border-color: transparent transparent transparent #1c355e;
 }
 
 .team-item:hover .team-text {
