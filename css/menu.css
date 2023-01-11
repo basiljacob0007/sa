@@ -300,7 +300,7 @@ ul.sub-menu > li > a.parent {
 	z-index: 10;
 	transform: rotate(180deg);
 }
-.px-5.projects, .px-5.services, .about-wrap .container-fluid.p-0, .projects .container-fluid.px-5 {
+.px-5.projects, .px-5.services, .about-wrap .container-fluid.p-0, .projects .container-fluid.bg-light {
     padding: 145px 0 40px 0 !important;
 }
 .service-wrap .container-fluid.py-6.px-5 {
