@@ -794,6 +794,10 @@ a:focus {
     background: rgba(0, 0, 0, .5);
 }
 
+.donate .container {
+    background-color: rgba(0, 0, 0, .7);
+}
+
 .donate .donate-content {
     padding: 45px 0 15px 0;
 }
@@ -1010,6 +1014,10 @@ a:focus {
     display: flex;
     align-items: center;
     background: rgba(0, 0, 0, .5);
+}
+
+.facts .container {
+    background-color: rgba(0, 0, 0, .7);
 }
 
 .facts .facts-item {
