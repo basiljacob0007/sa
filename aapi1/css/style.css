@@ -904,6 +904,7 @@ a:focus {
     width: 100%;
     transition: .3s;
     aspect-ratio: 1.4;
+    object-fit: cover;
 }
 
 .causes .causes-item:hover img {
