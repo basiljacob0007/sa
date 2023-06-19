@@ -9918,6 +9918,7 @@ h6,
 @media (max-width: 767.98px) {
 .share-wrap .social-widget {
   text-align: left !important;
+  display: none;
 }
 .toggle .navbar-brand {
   width: 80%;
