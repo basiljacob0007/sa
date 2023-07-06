@@ -179,6 +179,12 @@ h6,
     top: 0;
 }
 
+@media (max-width: 768px) {
+.navbar-light .navbar-brand {
+    width: 80%;
+}
+}
+
 .navbar-light .navbar-brand h1 {
     color: #FFFFFF;
 }
