@@ -233,7 +233,7 @@ http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
 .flex-caption {
 	position: absolute;
 	right: 11px;
-	bottom: 20px;
+	bottom: 50px;
 }
 
 .caption_title_line {
@@ -289,6 +289,12 @@ http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
 	display: block;
 	aspect-ratio: 1.6;
 	border: 10px #ededed solid;
+}
+@media screen and (min-width: 1320px) {
+	.flexslider .slides img {
+		max-width: 1320px;
+		margin: auto;
+	}
 }
 
 .flex-pauseplay span {
@@ -383,7 +389,7 @@ html[xmlns] .slides {
 	margin: 0 0 0 5px;
 	display: inline-block;
 	zoom: 1;
-	*display: inline;
+	display: inline;
 }
 
 .flex-control-nav li:first-child {

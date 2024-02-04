@@ -116,7 +116,7 @@ ol, ul {
 
 ul.sub-menu { /* level 2 */
 	display: none;
-	left: 0px;
+	left: -30px;
 	top: 38px;
 	padding-top: 10px;
 	position: absolute;
@@ -301,7 +301,7 @@ ul.sub-menu > li > a.parent {
 	transform: rotate(180deg);
 }
 .px-5.projects, .px-5.services, .about-wrap .container-fluid.p-0, .projects .container-fluid.bg-light {
-    padding: 145px 0 40px 0 !important;
+    padding: 145px 3rem 40px 3rem !important;
 }
 .service-wrap .container-fluid.py-6.px-5 {
 	padding-bottom: 50px;
