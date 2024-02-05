@@ -52,7 +52,6 @@ ol, ul {
 /* HEADER */
 #wrap > header {
 	background-color: #fff;
-	padding-bottom: 20px;
 	border-bottom: 3px solid #54c0e8;
 }
 .logo {
@@ -60,10 +59,26 @@ ol, ul {
 	font-size: 0;
 	padding-top:15px;
 }
+.logo-desk {
+	display: none;
+}
+@media all and (min-width: 900px) {
+	.logo-desk.logo {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 75px;
+	}
+	.logo-mobile {
+		display: none !important;
+	}
+	.logo-desk {
+		display: block;
+	}
+}
 #navigation {
 	position: absolute;
-	right: 40px;
 	bottom: 0px;
+	left: 15%;
 }
 
 #menu-toggle {
@@ -100,7 +115,7 @@ ol, ul {
 	font-size: 15px;
 	font-weight: 600;
 	line-height: 14px;
-	padding: 30px 0;
+	padding: 20px 0;
 	text-decoration:none;
 	font-family: 'Qanelas', Helvetica, Arial, Lucida, sans-serif;
 }
@@ -117,7 +132,7 @@ ol, ul {
 ul.sub-menu { /* level 2 */
 	display: none;
 	left: -30px;
-	top: 38px;
+	top: 18px;
 	padding-top: 10px;
 	position: absolute;
 	width: 180px;
@@ -168,7 +183,10 @@ ul.sub-menu > li > a.parent {
 #main-menu li:hover > ul.sub-menu {
 	display: block; /* show the submenu */
 }
-
+.relative.mobile .logo{
+	display: flex;
+    justify-content: center;
+}
 @media all and (max-width: 900px) {
 
 	#navigation {
@@ -178,6 +196,9 @@ ul.sub-menu > li > a.parent {
 
 	#menu-toggle {
 		display: block;
+		position: absolute;
+		right: 15px;
+		top: 5px;
 	}
 
 	#menu-toggle .icon-reorder {
@@ -301,7 +322,7 @@ ul.sub-menu > li > a.parent {
 	transform: rotate(180deg);
 }
 .px-5.projects, .px-5.services, .about-wrap .container-fluid.p-0, .projects .container-fluid.bg-light {
-    padding: 145px 3rem 40px 3rem !important;
+    padding: 185px 3rem 40px 3rem !important;
 }
 .service-wrap .container-fluid.py-6.px-5 {
 	padding-bottom: 50px;
