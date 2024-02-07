@@ -353,10 +353,9 @@ ul.sub-menu > li > a.parent {
 .service-wrap .py-6, .projects .py-6 {
 	max-width: 100% !important;
 }
-.about-wrap .py-6 {
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
+.icon-rating .d-flex.text-white .ps-4 p {
+	font-family: "Open Sans",sans-serif;
+   }
 @media screen and (max-width: 768px) {
 	.about-wrap .py-6 {
 		padding-top: 0;
@@ -364,6 +363,17 @@ ul.sub-menu > li > a.parent {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
+	
+	.icon-rating .d-flex.text-white {
+		flex-direction: column;
+   }
+   .icon-rating .d-flex.text-white .rounded-circle {
+		margin: auto;
+   }
+   .icon-rating .d-flex.text-white .ps-4 {
+	text-align: center;
+   }
+   
 }
 .about-wrap .text-primary, .projects .text-primary {
 	color: #1c355e !important;
