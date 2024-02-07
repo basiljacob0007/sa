@@ -62,11 +62,14 @@ ol, ul {
 .logo-desk {
 	display: none;
 }
+.btn-lg {
+	padding: 6px 12px !important;
+}
 @media all and (min-width: 900px) {
 	.logo-desk.logo {
 		display: flex;
 		justify-content: center;
-		padding-bottom: 75px;
+		padding-bottom: 40px;
 	}
 	.logo-mobile {
 		display: none !important;
@@ -74,16 +77,35 @@ ol, ul {
 	.logo-desk {
 		display: block;
 	}
-}
-#navigation {
-	position: absolute;
-	bottom: 0px;
-	left: 15%;
+	#main-menu {
+		display: flex;
+		justify-content: center;
+		float: none !important;
+	}
 }
 
 #menu-toggle {
 	display: none;
 	float: right;
+}
+.icon-reorder:before {
+    content: "\f0c9"
+}
+[class^="icon-"],[class*=" icon-"] {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    margin-top: 0
 }
 
 /* HEADER > MENU */
@@ -91,6 +113,7 @@ ol, ul {
 	float: right;
 	font-size: 0;
 	margin: 10px 0;
+	padding-left: 2rem;
 }
 
 #main-menu > li {
@@ -198,7 +221,7 @@ ul.sub-menu > li > a.parent {
 		display: block;
 		position: absolute;
 		right: 15px;
-		top: 5px;
+		top: 25px;
 	}
 
 	#menu-toggle .icon-reorder {
@@ -298,12 +321,12 @@ ul.sub-menu > li > a.parent {
     color: #FFFFFF !important;
 }
 .divider {
-	background-image: url('.././images/divider-blue.svg');
+	background-image: url('.././images/divider-grey.svg');
     background-size: 100% 35px;
     bottom: 0;
     height: 35px;
     z-index: 10;
-    transform: scale(1,1);
+    transform: rotate(180deg);
 }
 .divider-grey {
 	background-image: url('.././images/divider-grey.svg');

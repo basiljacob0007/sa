@@ -4,6 +4,8 @@
  }
  .single-well img {
      width: 100%;
+     max-height: 470px;
+     object-fit: cover;
  }
  .single-well>a{
      display:block

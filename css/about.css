@@ -2,6 +2,10 @@
      text-align: center;
      padding-bottom: 40px;
 }
+.titlepage img {
+     width: 150px;
+     float: left;
+}
 
 .titlepage h2 {
      font-size: 40px;
@@ -27,18 +31,18 @@
 
 .read_more {
      font-size: 17px;
-     background-color: #1b1b1a;
-     color: #fff;
-     padding: 17px 0px;
-     width: 100%;
-     max-width: 186px;
-     text-align: center;
-     display: inline-block;
-     transition: ease-in all 0.5s;
-     font-weight: 500;
-     border-radius: 5px;
-     height: 60px;
-     text-transform: uppercase;
+    background-color: #1b1b1a;
+    color: #fff;
+    padding: 12px 0px;
+    width: 100%;
+    max-width: 186px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 50px;
+    height: 50px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,32 +58,36 @@
 }
 
 
-
+.row.d_flex.title-align {
+     align-items: flex-start;
+}
 
 /** about section **/
 
 .about {
-     background-color: #54c0e8;
      padding-top: 40px;
      margin: auto;
      padding-bottom: 90px;
 }
 
-.about .container-fluid {
-     max-width: 920px;
-}
-
 .about .titlepage {
-     max-width: 666px;
-     float: right;
      width: 100%;
+     margin: auto;
      text-align: left;
      padding-bottom: 0;
+}
+.about .titlepage h3{
+     text-align: center;
+}
+@media screen and (min-width: 768px) {
+     .about .titlepage {
+          max-width: 80%;
+     }     
 }
 
 .about .titlepage span {
      font-family: 'Raleway', sans-serif;
-     padding-bottom: 60px;
+     padding-bottom: 25px;
      padding-top: 40px;
 }
 
@@ -91,6 +99,12 @@
      .about_img {
           padding-right: 0;
           padding-left: 0;
+     }
+     .col-md-6.services {
+          margin-top: 15px;
+     }
+     .about {
+          padding-bottom: 20px;
      }
 }
 

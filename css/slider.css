@@ -285,10 +285,10 @@ http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {
 	max-width: 100%;
-	max-height: 50%;
+	max-height: 750px;
 	display: block;
-	aspect-ratio: 1.6;
 	border: 10px #ededed solid;
+	margin: auto;
 }
 @media screen and (min-width: 1320px) {
 	.flexslider .slides img {
