@@ -357,6 +357,14 @@ ul.sub-menu > li > a.parent {
     padding-top: 90px;
     padding-bottom: 90px;
 }
+@media screen and (max-width: 768px) {
+	.about-wrap .py-6 {
+		padding-top: 0;
+    	padding-bottom: 0;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
 .about-wrap .text-primary, .projects .text-primary {
 	color: #1c355e !important;
 }
