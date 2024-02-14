@@ -233,12 +233,12 @@ http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
 .flex-caption {
 	position: absolute;
 	right: 11px;
-	bottom: 50px;
+	bottom: 70px;
 }
 
 .caption_title_line {
 	width: 450px;
-	height: 110px;
+	height: 160px;
 	padding: 5px 15px 10px 15px;
 	background-color: rgba(136, 136, 136, 0.68);
 	color: #303030;
@@ -354,12 +354,12 @@ html[xmlns] .slides {
 
 .flex-direction-nav li a.next {
 	background: url(../images/next_a.png) no-repeat center;
-	bottom: 320px;
+	bottom: 400px;
 }
 
 .flex-direction-nav li a.prev {
 	background: url(../images/prev_a.png) no-repeat center;
-	bottom: 320px;
+	bottom: 400px;
 	left: 10px;
 }
 
