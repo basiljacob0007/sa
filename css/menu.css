@@ -295,30 +295,39 @@ ul.sub-menu > li > a.parent {
 	font-size: 11px;
 }
 .container-fluid.container-footer .col-lg-3 p {
-	font-size: 14px;
+	font-size: 13px;
+	font-weight: 600;
 }
 .container-wrap .logo img {
 	height: 80px;
 	width: auto;
 }
 .container-fluid.bg-dark.text-secondary {
-    background-color: #1c355e !important;    
+    background-color: #018807 !important;    
 }
 .bi-arrow-right.text-primary {
     color: #54c0e8 !important;
 }
 .btn-primary.btn-lg-square {
-    background-color: #54c0e8;
-    border-color: #54c0e8;
+    background-color: #fff;
+    border-color: #fff;
 }
 .bi.text-primary {
-    color: #54c0e8 !important;
+    color: #fff !important;
+}
+.contact-mail {
+	color: #fff !important;
 }
 .border-top.py-4.px-5 {
-	background-color: #1C3454 !important;
+	background-color: #018807 !important;
 }
 .btn-primary.btn-lg-square.rounded-circle {
-    color: #FFFFFF !important;
+    color: #018807 !important;
+}
+.btn-primary.btn-lg-square.rounded-circle:hover {
+    color: #fff !important;
+	background-color: #f56c73;
+    border-color: #f4636b;
 }
 .divider {
 	background-image: url('.././images/divider-grey.svg');
